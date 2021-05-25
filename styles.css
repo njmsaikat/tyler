@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@font-face{
+    font-family: 'Trueno';
+    src: url(fonts/TruenoRoundBd.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #38b6ff;
+}
+
+/*common*/
+
+.align-row{
+    align-items: center;
+}
+
+.white{
+    color: #fff;
+}
+
+.green{
+    color: #008037;
+}
+
+.g-black{
+    color: #474747;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.custom-button {
+    padding: 2rem 3.5rem;
+    border-radius: 94px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 42px;
+    cursor: pointer !important;
+}
+
+/* .custom-button a {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 42px;
+} */
+
+/*head*/
+.head {
+    background-color: #474747;
+    padding: 160px 0;
+}
+
+
+.top-heading {
+    font-size: 80px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.under{
+    z-index: 3;
+}
+
+.top-heading .under::after {
+    content: '';
+    width: 100%;
+    height: 17px;
+    background-color: #119ff1;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    z-index: -1;
+}
+
+.wide {
+    font-weight: 700;
+}
+
+
+
+/*quote section*/
+.quote-section{
+    padding: 100px 0;
+}
+
+.drone-image img {
+    max-width: 100%;
+}
+
+.quote-text-section {
+    text-align: center;
+}
+
+.quote-para {
+    padding: 60px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.quote-button {
+    margin-top: 20px;
+}
+
+.quote-button-inner {
+    background-color: #38b6ff;
+}
+
+.quote-button-inner:hover {
+    background-color: #474747;
+}
+
+.quote-button-inner a:hover {
+    color: #fff;
+}
+
+
+/*profile section*/
+.profile-section {
+    padding: 120px 0;
+    background-color: #d9d9d9;
+}
+
+
+.profile-left {
+    text-align: center;
+}
+
+.profile-image {
+    margin-bottom: 20px;
+}
+
+.profile-image img{
+    max-width: 100%;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.profile-intro {
+    font-size: 24px;
+    padding-left: 32px;
+}
+
+/*clients section*/
+.clients-section{
+    padding: 110px 0;
+}
+
+.client-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.company-logo-row{
+    text-align: center;
+    margin: auto;
+}
+
+.company-logo-row img{
+    max-width: 100%;
+    padding: 20px 0;
+
+}
+
+/*contact section*/
+.contact-section{
+    background-color: #38b6ff;
+    padding: 80px 0 0 0;
+}
+
+.contact-title-inner {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.contact-content {
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 80px 0;
+    font-weight: 300;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+
+.cta-button-inner a {
+    color: #474747;
+}
+
+.cta-button-inner {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.cta-button-inner:hover {
+    background-color: #474747;
+}
+
+.cta-button-inner:hover a{
+    color: #fff;
+}
+
+.phone a:hover{
+    color: #474747;
+}
+
+
+/*footer section*/
+footer{
+    padding: 30px 0;
+    background-color: #474747;
+}
+
+.site-logo img {
+    max-width: 347px;
+}
+
+.site-link {
+    font-size: 28px;
+}
+
+.site-license {
+    font-size: 28px;
+}
+
+@media (max-width: 1399px){
+    .head {
+        padding: 130px 0;
+    }
+
+    .top-heading {
+        font-size: 68px;
+    }
+
+    .title {
+        font-size: 38px;
+        line-height: 2.8rem;
+    }
+
+    .quote-para {
+        padding: 50px 0;
+        font-size: 28px;
+    }
+
+    .custom-button {
+        padding: 1.5rem 3rem;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .profile-intro {
+        font-size: 20px;
+    }
+
+    .contact-title-inner {
+        font-size: 52px;
+    }
+
+    .contact-content {
+        font-size: 28px;
+        letter-spacing: 1px;
+        padding: 58px 0;
+    }
+
+    .site-link {
+        font-size: 24px;
+    }
+
+    .site-license {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1199px){
+    .head {
+        padding: 85px 0;
+    }
+
+    .top-heading {
+        font-size: 58px;
+    }
+
+    .top-heading .under::after {
+        height: 12px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 2rem;
+    }
+
+    .quote-para {
+        padding: 45px 0;
+        font-size: 24px;
+    }   
+
+    .custom-button {
+        padding: 1.2rem 2.5rem;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .profile-intro {
+        font-size: 18px;
+    }
+
+    .clients-section {
+        padding: 55px 0;
+    }
+
+    .client-title {
+        padding-bottom: 30px;
+    }
+
+    .contact-title-inner {
+        font-size: 48px;
+    }
+
+    .contact-content {
+        font-size: 25px;
+        padding: 50px 0;
+    }
+
+    .site-link {
+        font-size: 18px;
+    }
+
+    .site-license {
+        font-size: 18px;
+    }
+
+    .site-logo img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 991px){
+    .head {
+        padding: 70px 0;
+    }
+    .top-heading {
+        font-size: 48px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 1.8rem;
+    }
+
+    .quote-section {
+        padding: 60px 0;
+    }
+
+    .quote-para {
+        padding: 40px 0;
+        font-size: 20px;
+    }
+
+    .custom-button {
+        padding: 1rem 2rem;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .profile-intro {
+        font-size: 16px;
+    }
+
+    .profile-section {
+        padding: 70px 0;
+    }
+
+    .company-logo-row img {
+        padding: 10px 0;
+    }
+
+    .contact-section {
+        padding: 50px 0 0 0;
+    }
+
+    .contact-content {
+        font-size: 18px;
+        padding: 40px 0;
+    }
+
+    .site-logo img {
+        max-width: 230px;
+    }
+
+    .site-link {
+        font-size: 16px;
+    }
+
+    .site-license {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px){
+    .head {
+        padding: 48px 0;
+    }
+
+    .top-heading {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .top-heading .under::after {
+        height: 8px;
+        bottom: 8px;
+    }
+    .quote-section {
+        padding: 40px 0;
+    }
+
+    .drone-image {
+        margin-bottom: 20px;
+    }
+    .profile-left {
+        margin-bottom: 20px;
+    }
+
+
+    .profile-intro {
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .site-logo {
+        padding: 20px 0;
+    }
+}
+
+
+@media (max-width: 499px){
+    .contact-button-row {
+        display: block;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .left {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .top-heading {
+        font-size: 28px;
+    }
+    .top-heading .under::after {
+        height: 7px;
+        bottom: 6px;
+    }
+
+    .drone-image img {
+        max-width: 80%;
+    }
+
+    .drone-image {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 425px){
+.top-heading {
+    font-size: 24px;
+}
+.top-heading .under::after {
+    height: 5px;
+    bottom: 4px;
+}
+.quote-para {
+    padding: 24px 0;
+    font-size: 18px;
+}
+.contact-title-inner {
+    font-size: 38px;
+}
+.contact-content {
+    padding: 28px 0;
+}
+
+.title {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 349px){
+.top-heading {
+    font-size: 21px;
+}
+.quote-para {
+    padding: 20px 0;
+    font-size: 16px;
+}
+.custom-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 20px;
+    line-height: 20px;
+}
+.clients-section {
+    padding: 40px 0;
+}
+.client-title {
+    padding-bottom: 0;
+}
+.company-logo-row img {
+    padding: 0;
+}
+}
