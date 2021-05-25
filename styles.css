@@ -49,11 +49,19 @@ a:hover{
 }
 
 .custom-button {
-    padding: 1rem 2rem;
+    padding: 2rem 3.5rem;
     border-radius: 94px;
-    font-size: 26px;
+    font-size: 38px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 42px;
+    cursor: pointer !important;
+}
+.custom-button-2 {
+    padding: 1.2rem 2.2rem;
+    border-radius: 94px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30px;
     cursor: pointer !important;
 }
 
@@ -272,11 +280,11 @@ footer{
         font-size: 28px;
     }
 
-    /* .custom-button {
+    .custom-button {
         padding: 1.5rem 3rem;
         font-size: 32px;
         line-height: 38px;
-    } */
+    }
 
     .profile-intro {
         font-size: 20px;
@@ -322,11 +330,11 @@ footer{
         font-size: 24px;
     }   
 
-    /* .custom-button {
+    .custom-button {
         padding: 1.2rem 2.5rem;
         font-size: 28px;
         line-height: 32px;
-    } */
+    }
 
     .profile-intro {
         font-size: 18px;
@@ -384,7 +392,14 @@ footer{
     }
 
     .custom-button {
+        padding: 1rem 2rem;
         font-size: 24px;
+        line-height: 28px;
+    }
+
+    .custom-button-2 {
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .profile-intro {
@@ -523,6 +538,12 @@ footer{
     font-size: 16px;
 }
 .custom-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.custom-button-2 {
     padding: 0.8rem 1.5rem;
     font-size: 20px;
     line-height: 20px;
