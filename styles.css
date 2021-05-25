@@ -196,7 +196,6 @@ a:hover{
 
 .contact-content {
     font-size: 32px;
-    letter-spacing: 2px;
     padding: 80px 0;
     font-weight: 300;
 }
@@ -285,7 +284,6 @@ footer{
 
     .contact-content {
         font-size: 28px;
-        letter-spacing: 1px;
         padding: 58px 0;
     }
 
