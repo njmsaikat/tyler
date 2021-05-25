@@ -194,9 +194,13 @@ a:hover{
     line-height: 3rem;
 }
 
+.contact-button-row {
+    padding: 30px 0;
+}
+
 .contact-content {
     font-size: 32px;
-    padding: 80px 0;
+    padding: 30px 0;
     font-weight: 300;
 }
 
